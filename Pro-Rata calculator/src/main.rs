@@ -15,5 +15,8 @@ fn main() {
 
     let amount_used = (monthly_cost / 30.00) * credit_time;
     let comp_amount:f32 = monthly_cost - amount_used;
-    println!("{}", comp_amount)
+    println!("{}", comp_amount);
+
+    let mut confirmation = String::new();
+    io::stdin().read_line(&mut confirmation).expect("Error");
 }
