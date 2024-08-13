@@ -13,19 +13,19 @@ fn main() {
     if tool_select == 2 {
 
         //get input for dates
-        println!("Enter the start of the billing period in format: YYYY-MM-DD");
+        println!("Enter the start of the billing period in format: DD/MM/YYYY");
         let mut date_input1 = String::new();
         io::stdin().read_line(&mut date_input1).expect("Error");
         let date_input1 = date_input1.trim();
     
-        println!("Enter the service end date in format: YYYY-MM-DD");
+        println!("Enter the service end date in format: DD/MM/YYYY");
         let mut date_input2 = String::new();    
         io::stdin().read_line(&mut date_input2).expect("Error");
         let date_input2 = date_input2.trim();
 
         // Define the two dates
-        let date1 = NaiveDate::parse_from_str(date_input1, "%Y-%m-%d").expect("Failed to parse date"); 
-        let date2 = NaiveDate::parse_from_str(date_input2, "%Y-%m-%d").expect("Failed to parse date");
+        let date1 = NaiveDate::parse_from_str(date_input1, "%d/%m/%Y").expect("Failed to parse date"); 
+        let date2 = NaiveDate::parse_from_str(date_input2, "%d/%m/%Y").expect("Failed to parse date");
 
         // Calculate the difference between the two dates
         let duration = date2.signed_duration_since(date1);
