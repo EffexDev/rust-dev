@@ -1,0 +1,11 @@
+/home/effex-dev/Documents/learn-rust/netdiag/target/x86_64-pc-windows-gnu/release/deps/libsocket2-9c7d8cf020fbae03.rmeta: /home/effex-dev/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.7/src/lib.rs /home/effex-dev/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.7/src/sockaddr.rs /home/effex-dev/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.7/src/socket.rs /home/effex-dev/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.7/src/sockref.rs /home/effex-dev/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.7/src/sys/windows.rs
+
+/home/effex-dev/Documents/learn-rust/netdiag/target/x86_64-pc-windows-gnu/release/deps/libsocket2-9c7d8cf020fbae03.rlib: /home/effex-dev/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.7/src/lib.rs /home/effex-dev/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.7/src/sockaddr.rs /home/effex-dev/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.7/src/socket.rs /home/effex-dev/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.7/src/sockref.rs /home/effex-dev/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.7/src/sys/windows.rs
+
+/home/effex-dev/Documents/learn-rust/netdiag/target/x86_64-pc-windows-gnu/release/deps/socket2-9c7d8cf020fbae03.d: /home/effex-dev/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.7/src/lib.rs /home/effex-dev/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.7/src/sockaddr.rs /home/effex-dev/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.7/src/socket.rs /home/effex-dev/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.7/src/sockref.rs /home/effex-dev/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.7/src/sys/windows.rs
+
+/home/effex-dev/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.7/src/lib.rs:
+/home/effex-dev/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.7/src/sockaddr.rs:
+/home/effex-dev/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.7/src/socket.rs:
+/home/effex-dev/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.7/src/sockref.rs:
+/home/effex-dev/.cargo/registry/src/index.crates.io-6f17d22bba15001f/socket2-0.5.7/src/sys/windows.rs:
