@@ -31,7 +31,7 @@ fn main() {
         let duration = date2.signed_duration_since(date1);
     
         // Get the number of days
-        let days_between: f32 = duration.num_days() as f32;
+        let days_between = duration.num_days();
 
         //accept a user input for monthly cost as a string and parse it into an f32
         let mut monthly_cost = String::new();
@@ -41,10 +41,10 @@ fn main() {
 
         //math to work out the daily cost of the service and how much was owed by customer 
         let daily_cost = monthly_cost / 30.00;
-        let actual_cost = daily_cost * days_between;
+        let actual_cost = daily_cost * days_between as f32;
     
         //subtract the amount owed from the monthly amount to get the prorata amount
-        let comp_amount:f32 = monthly_cost - actual_cost;
+        let comp_amount = monthly_cost - actual_cost;
         println!("The prorata amount is {}", comp_amount);
     }
     else {
