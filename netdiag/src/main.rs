@@ -22,7 +22,7 @@ async fn main() {
         let ip = ip.to_string();
         let task = tokio::spawn(async move {
             let output = TokioCommand::new("ping")
-                .arg("-n 1") // For Linux/Mac; use "-n 4" for Windows
+                .arg("-c 1") // For Linux/Mac; use "-n 4" for Windows
                 .arg(&ip)
                 .output()
                 .await
